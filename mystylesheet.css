@@ -14,16 +14,25 @@ body {
     align-items: center;
 }
 
-#right-corner{
+#right-corner {
      font-size: 12px;
      margin-left: auto;
 }
+
+#gmail {
+    padding: 10px 170px 10px 10px;
+}
+
+#images {
+    margin: -37px -5px -5px -10px;
+    padding-left: 70px;
+}
+
 #logo {
     max-width: 100%;
     height: auto; 
     margin: 190px 0 20px 0; 
 }
-
 
 #search {
     border-color: rgba(255, 255, 240, 0.904);
@@ -39,6 +48,7 @@ body {
 .buttons {
     background-color: #f3f3f3fa;
     border-radius: 5px;
+    border: none;
     width: 150px;
     height: 50px;
     margin: 15px 5px 0px 5px;
