@@ -10,11 +10,14 @@ body {
 .flexbox-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-
+#right-corner{
+     font-size: 12px;
+     margin-left: auto;
+}
 #logo {
     max-width: 100%;
     height: auto; 
@@ -23,23 +26,21 @@ body {
 
 
 #search {
-    border-color: ivory;
+    border-color: rgba(255, 255, 240, 0.904);
     border-style: outset;
     border-radius: 150px;
     box-shadow: 0px 0px 10px grey;
     width: 500px;
     height: 35px;
+    margin-top: 12px;
     
 }
 
 .buttons {
-    color: #f3f3f3;
+    background-color: #f3f3f3fa;
     border-radius: 5px;
     width: 150px;
     height: 50px;
-    margin: 10px;
+    margin: 15px 5px 0px 5px;
 }
 
-#button-right {
-    
-}
